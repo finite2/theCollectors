@@ -1,0 +1,10 @@
+
+
+.CardStub {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin: 5px auto;
+  border: 2px solid green;
+  background-color: #44BBFF;
+}

@@ -1,0 +1,59 @@
+
+
+.noCard {
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  border: 2px solid white;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  border: 2px solid red;
+  background-color: #44BBFF;
+}
+
+.cardTop {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.cardType {
+  text-align: left;
+  font-size: 0.75em;
+  padding: 0px;
+}
+
+.fogery {
+  text-align: left;
+  font-size: 0.75em;
+  padding: 0px;
+}
+
+.collectableType {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 0px;
+}
+
+.value {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 20px
+}
+
+.cardName {
+  font-size: 1.2em;
+}
+
+.description {
+  font-size: 0.75em;
+}

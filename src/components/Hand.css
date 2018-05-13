@@ -1,0 +1,15 @@
+
+
+.hand {
+  margin: 10px;
+  border: 2px solid black;
+  background-color: #88FFAA;
+}
+
+.col-3 {
+  display: inline-block;
+}
+
+.discard {
+  background-color: #FFAAAA;
+}
