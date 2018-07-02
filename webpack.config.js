@@ -16,7 +16,7 @@ module.exports = {
     port: 3000
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['*', '.js', '.jsx']
   },
   plugins: [
     new webpack.ProvidePlugin({
