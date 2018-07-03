@@ -4,6 +4,7 @@
   margin: 10px;
   border: 2px solid black;
   background-color: #88FFAA;
+  min-height: 140px;
 }
 
 .col-3 {

@@ -126,7 +126,7 @@ var cards = {
   .addOnPlayFunction((card, selectState, player, opponent) => onPlayBlackmail(card, selectState, player, opponent)),
   "Informant": new CardData("Informant", 0, "Action", "Action", "", <span>Reveal three of your opponents items which are currently hidden</span>)
     .addOnPlayFunction((c,p,o) => informant(c,p,o)),
-  "Chasing an old object": new CardData("Chasing an old object", 0, "Action", "Action", "", <span>Take a Collectable card of your choice which you have sold at auction this game</span>)
+  "Chasing an old Lead": new CardData("Chasing an old load", 0, "Action", "Action", "", <span>Take a Collectable card of your choice which you have sold at auction this game</span>)
   .addOnPlayFunction((card, selectState, player, opponent) => onPlayLead(card, selectState, player, opponent))
   .addSelectionConfirm((self, selection, player, opponent) => onSelectLead(self, selection, player, opponent)),
   "Making your Aquaintance": new CardData("Making your Aquaintance", 0, "Action", "Action", "", <span>Follow up a lead to aquire a new Patron. Receive a new random Patron</span>),
@@ -390,7 +390,6 @@ function informant(card, player, oponent) {
 
 // Cards generator
 function CardData(name, value, cardType, collectableType, group, description) {
-
   this.name = name
   this.value = value
   this.cardType = cardType
